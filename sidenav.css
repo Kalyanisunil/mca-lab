@@ -1,0 +1,29 @@
+a{
+text-decoration:none;
+padding:6px 8px 6 px 16px;
+color:white;
+}
+.sidenav
+{
+height:250px;
+background-color:green;
+width:160px;
+padding-top:20px;
+position:absolute;
+top:1%;
+left:1%;
+}
+body
+{
+margin:0;
+}
+a:hover
+{
+color:red;
+}
+.main
+{
+margin-left:200px;
+padding:0px 20px 0px 20px;
+}
+
