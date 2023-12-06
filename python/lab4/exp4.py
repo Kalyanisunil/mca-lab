@@ -1,16 +1,12 @@
-def recur_fibo(n):
-    if n <= 1:
+def fib(n):
+    if n<=1:
         return n
     else:
-        return (recur_fibo(n - 1) + recur_fibo(n - 2))
+        return fib(n-1)+fib(n-2)
 
-
-nterms = int(input("enter the number of terms:"))
-
-# check if the number of terms is valid
-if nterms <= 0:
-    print("Plese enter a positive integer")
+nterms=int(input("enter the number to find the fibonacci series:"))
+if nterms<=0:
+    print("please enter the positive integer")
 else:
-    print("Fibonacci sequence:")
     for i in range(nterms):
-        print(recur_fibo(i))
+        print(fib(i))
